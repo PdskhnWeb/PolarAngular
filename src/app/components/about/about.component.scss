@@ -1,0 +1,44 @@
+.about-inner {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  /* Распределяет элементы по горизонтали */
+  gap: 20px;
+  /* Расстояние между элементами */
+  flex-wrap: nowrap;
+  /* Предотвращает перенос элементов на новую строку */
+}
+
+.about-item {
+  width: calc(25% - 20px);
+  /* 4 элемента в ряд с учетом gap */
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 7px;
+  border: 0;
+}
+
+.about-item img {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+.about-item h3 {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.about-item p {
+  font-size: 14px;
+  color: #666;
+  width: 210px;
+}

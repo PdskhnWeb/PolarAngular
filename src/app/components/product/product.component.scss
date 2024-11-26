@@ -1,0 +1,191 @@
+.product_header {
+  margin-top: 134px;
+}
+
+.product_header p {
+  text-align: center;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  color: #150101;
+}
+
+.product_header ul {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.product_header li {
+  list-style: none;
+  margin-left: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  opacity: 0.6;
+}
+
+.product_header a:hover {
+  color: #000;
+  border-bottom: 3px solid #D64374;
+  opacity: none;
+}
+
+.product_content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product_content {
+  background-image: url('../../../assets/product/1.svg');
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.product-inner {
+  margin: 110px 0 150px;
+  width: 42%;
+}
+
+.product-inner h3 {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.product-inner p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+.price-container {
+  margin-top: 28px;
+}
+
+.current-price {
+  margin-top: 28px;
+  color: #000;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.old-price {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #000;
+  opacity: 0.7;
+}
+
+.product-inner .btn {
+  margin-top: 16px;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color: #D64374;
+  border: 0;
+  cursor: pointer;
+}
+
+.product-inner .btn a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.content_about {
+  display: flex;
+  text-align: end;
+}
+
+.content_about {
+  background-image: url('../../../assets/product/2.svg');
+  background-repeat: no-repeat;
+  background-position: center right -5%;
+}
+
+.content_bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content_bottom {
+  background-image: url('../../../assets/product/3.svg');
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.about_item {
+  margin-top: 205px;
+  display: flex;
+  align-items: center;
+  /* Центрирование элементов по вертикали */
+  gap: 20px;
+}
+
+.text-container h3 {
+  width: 178px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.text-container p {
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.about_item-text {
+  margin-top: 45px;
+  display: flex;
+}
+
+.quotes-left {
+  display: flex;
+  align-self: flex-start;
+  margin-right: 12px;
+  margin-top: 5px;
+}
+
+.about_item-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  width: 322px;
+}
+
+.about_quotes {
+  display: flex;
+}
+
+.quotes-right {
+  display: flex;
+  align-self: flex-end;
+  margin-left: -54px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  margin: 55px 0 235px;
+}
+
+.slider img {
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+.about_bottom {
+  overflow: hidden;
+  position: relative;
+  background-image: url('../../../assets/ice\ cream\ bottom.svg');
+  background-repeat: no-repeat;
+  background-position: center right;
+}

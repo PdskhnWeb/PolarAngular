@@ -1,0 +1,39 @@
+.question_inner {
+  margin: 190px 0 150px;
+}
+
+.question_inner h3 {
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+}
+
+.question_btn {
+  display: flex;
+  margin-top: 28px;
+  justify-content: center;
+}
+
+input[type="text"] {
+  background-color: #fafafa;
+  border: 0;
+  width: 534px;
+  /* Установите желаемую ширину */
+  padding: 29px;
+  /* Добавьте отступы для увеличения высоты */
+  font-size: 16px;
+  /* Увеличьте размер шрифта, если нужно */
+  border-radius: 5px;
+}
+
+.question_btn button {
+  padding: 28px 39px;
+  border: 0;
+  background-color: #D64374;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.question_btn a {
+  color: #fff;
+}

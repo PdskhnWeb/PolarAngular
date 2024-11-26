@@ -1,0 +1,81 @@
+.food_item {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  position: relative;
+}
+
+.foot_icon {
+  position: absolute;
+  top: 60px;
+  /* значение, на которое изображение выходит за границы */
+  left: 0;
+  /* выравнивание изображения по левому краю контейнера */
+  /* ширина изображения */
+  height: auto;
+  /* автоматическая высота, чтобы сохранить пропорции */
+}
+
+.food_inner {
+  margin-top: 30px;
+  align-self: flex-start;
+  margin-left: 439px;
+}
+
+.food_inner h3 {
+  width: 600px;
+  font-weight: 500;
+  font-size: 44px;
+}
+
+.food_inner p {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  opacity: 0.7;
+  width: 607px;
+}
+
+.food_btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  .food_btn__click{
+    display: flex;
+    align-items: center;
+  }
+
+  .food_btn_shop{
+    display: flex;
+    align-items: center;
+  }
+
+  .food_btn__order{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.food_btn button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.food_btn p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #000;
+}
+
+.food_market {
+  margin-bottom: 115px;
+  display: flex;
+}
